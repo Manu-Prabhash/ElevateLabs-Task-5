@@ -1,1 +1,2 @@
 # ElevateLabs-Task-5
+Since Kali linux already have wireshark preinstalled i didnt have to download it seperately. First thing i opened wireshark and in the "enter capture filter" bar i typed in "host hackthebox.com" since i wanted to inspects this websites traffic. After that i opened the website for a few seconds and stopped capturing packets. Then I entered filter as "tcp", which showed me all TCP packets and the 3 most common protocols where "TCP, QUIC and ICMP". Then i saved the file as a .pcap file 
